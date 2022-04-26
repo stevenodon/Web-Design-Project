@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Pomotion</title>
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href="stylesheets/stevens-pages.css" rel="stylesheet">
+    <link href="typography.css" rel="stylesheet">
+    <link href="stylesheets/a_header_styles.css" rel="stylesheet">
+    <link href="stylesheets/a_footer_styles.css" rel="stylesheet">
+</head>
+<body style="background-color: #eecbff;">
+<header>
+    <div id="a-header">
+        <div class="a-logo-cont">
+            <img class="a-logo" src="images/Lotus_beauty.png" alt="Lotus-flower" >
+        </div>
+        <div class="a-headNav-cont">
+            <div class="a-header-cont">
+                <h1>Lotus Beauty Salon</h1>
+            </div>                   
+            <nav class="a-nav-cont">
+                <ul class="a-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li> <a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="a-logo-cont">
+            <img class="a-logo" src="images/Lotus_beauty.png" alt="Lotus-flower">
+        </div>  
+    </div>
+</header>
+<main class="left-right-side-margins">
+    <h1 class="discountHead">Find your next visit</h1>
+    <h2 class="discountHead"><i>It's a beauty thing, you wouldn't understand</i></h2>
+    <p class="discountPara">Click on the icons below. Find the code in one of the boxes. The code changes boxes each turn</p>
+    <p class="discountPara">Get 25% off if you find it in under 5 clicks.</p>
+    <p class="discountPara">Get 20% off if you find it in under 10 clicks.</p>
+    <p class="discountPara">Get 15% off if you find it in under 15 clicks.</p>
+    <p class="discountPara">Get 10% off if you find it in under 20 clicks.</p>
+    <p class="discountPara">Get 5% off if you find it in under 25 clicks.</p>
+    <div class="game-content-buttons-1">
+        <button onclick="checkWin(this.id)" id="cream"><img src="images/discountImages/cream.png"></button>
+        <button onclick="checkWin(this.id)" id="hairbrush"><img src="images/discountImages/hairbrush.png"></button>
+        <button onclick="checkWin(this.id)" id="hairdryer"><img src="images/discountImages/hairdryer.png"></button>
+        <button onclick="checkWin(this.id)" id="lipstick"><img src="images/discountImages/lipstick.png"></button>
+        <button onclick="checkWin(this.id)" id="lotion"><img src="images/discountImages/lotion.png"></button>
+    </div>
+    <div class="game-content-buttons-2">
+        <button onclick="checkWin(this.id)" id="pedicure"><img src="images/discountImages/pedicure.png"></button>
+        <button onclick="checkWin(this.id)" id="seat"><img src="images/discountImages/seat.png"></button>
+        <button onclick="checkWin(this.id)" id="shampoo"><img src="images/discountImages/shampoo.png"></button>
+        <button onclick="checkWin(this.id)" id="straightener"><img src="images/discountImages/straightener.png"></button>
+        <button onclick="checkWin(this.id)" id="zenstones"><img src="images/discountImages/zenstones.png"></button>
+    </div>
+    <h4 id="endGameMessage"></h4>
+</main>
+<footer>
+    <div class="a-footer">
+        <div class="a-footer-logo">
+            <a href="index.html"><img src="images/Lotus_beauty.png" alt="Lotus-flower" class="footer-logo"></a>
+        </div>
+
+        <div class="a-footer-menu">
+            <a href="services.html" id="a-ser-page">Services</a>
+            <a href="gallery.html" id="a-gal-page">Gallery</a>
+            <a href="contact.html" id="a-con-page">Contact</a>
+        </div>
+
+        <div class="a-icons">
+            <!--Facebook icon-->
+            <img src="images/facebook-5222.png">
+            <!-- Instagram icon -->
+            <img src="images/black-instagram-logo-3496.png">
+            <!--Twitter icon-->
+            <img src="images/twitter-117.png">
+            <!--Google icon-->
+            <img src="images/google-plus-110.png">
+        </div>
+
+        <div class="a-back-to-top"  title="scroll up">
+            <img onclick="scrollToTop()" src="images/up-arrow-3097.png" alt="up arrow">
+        </div>
+    </div>
+</footer>
+    <script src="scripts/stevensJavaScript.js" type="text/javascript"></script>
+    <script src="scripts/a_index_script.js" type="text/javascript"></script>
+    <script src="scripts/a_footer_script.js" type="text/javascript"></script>
+</body>
+</html>
